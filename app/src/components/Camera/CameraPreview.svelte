@@ -7,7 +7,7 @@
         node.srcObject = stream;
         return {
             update(newStream) {
-                if (node.srcObject != newStream) { // the important change
+                if (node.srcObject != newStream) {
                     node.srcObject = newStream
                 }
             }
