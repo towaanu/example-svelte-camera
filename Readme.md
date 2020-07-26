@@ -1,7 +1,7 @@
 # Camcam
 Little app using web camera API and sveltejs
 
-# Launche the app
+# Launch the app
 You need docker to start the app
 
 First go to the root of the project and do ( make sure `docker-run.sh` is executable ) : 
