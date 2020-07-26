@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack-dev-server --host 0.0.0.0 --content-base dist",
+    "start:dev": "webpack-dev-server --host 0.0.0.0 --https --content-base dist",
     "build:dev": "webpack --mode development",
     "build:prod": "webpack --mode production"
   },
